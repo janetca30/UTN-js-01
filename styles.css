@@ -1,0 +1,363 @@
+@import url('https://fonts.googleapis.com/css2?family=Courgette&family=Train+One&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 10px; 
+}
+
+body {
+  background: #c5d3d3 ;
+  margin: 0 auto;
+  height: 100vh;
+}
+
+h1 {
+  font-family: 'Courgette', cursive;
+  color: #271c85;
+  text-align: center;
+  margin-top: 2%;
+  width: 100%;
+  font-size: 3.2rem;
+}
+
+.logo {
+  display: flex;
+  justify-content: space-around;
+}
+
+.logo_a {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+#insurance {
+  width: 15%;
+  height: auto;
+  
+}
+
+h5 {
+  font-family: 'Courgette', cursive;
+  color: #0f0f0f;
+  display: flex;
+  font-size: 1.2rem;
+  
+}
+
+.logo_b {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.header_navigation {
+  background-color: aliceblue;
+  display: flex;
+  justify-content: space-evenly;
+  height: 20%;
+}
+
+.reds {
+  list-style-type: none;
+  display: flex;
+  justify-content: flex-end;
+  margin-left: 1%;
+  padding: 5%;
+}
+
+li {
+  margin-right: 10%;
+  
+}
+
+li a {
+  text-decoration: none;
+  color: black;
+  font-size: 2.2rem;
+  
+}
+
+a {
+  text-decoration: none;
+  font-size: 1.2rem;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+
+}
+
+.navigation {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-around;
+  font-size: 2.2rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  
+}
+
+.welcome {
+  background-color: #414dbb;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  color: white;
+  font-size: 1.8rem;
+}
+
+#family {
+  margin: 2%;
+  border-radius: 50%;
+}
+
+h2 {
+  color: white;
+  font-family: 'Courgette', cursive;
+}
+
+/*card dinamic */
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.cardtype {
+  width: 100%;
+  background-color: azure;
+  color: #271c85;
+  width: 33.3%;
+  font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+  flex-direction: row;
+
+}
+
+.content-card {
+  padding: 10%;
+  margin: 5%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  border-radius:5% ;
+  border-color: #271c85;
+  border-width: thick;
+  border-style: solid;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  height: auto;
+    
+}
+
+h3 {
+  text-align: center;
+  font-weight: bold;
+  font-size: 2.8rem;
+}
+
+.price {
+  text-align: center;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.medical, .emergencies, .hospital {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  font-size: 1.4rem;
+  color: #4f3fe0;
+}
+
+.medical_text, .emergencies_text, .hospital_text {
+  margin: 5%;
+}
+
+/* end card*/
+
+.copy {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin-top: 1%;
+  bottom: 15%;
+  color: rgb(133, 14, 73);
+}
+
+.copiright {
+  font-size: 1.2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.important {
+  background-color: white;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  
+}
+
+.text_important {
+  font-size: 1.3rem;
+  display: flex;
+  flex-wrap: wrap;
+  color:white;
+  background: #2d1cc7;
+  width: 100%;
+}
+
+.text_a {
+  margin-top: 2%;
+  margin-left: 3%;
+} 
+
+.text_b {
+  margin-left: 3%;
+  margin-bottom: 2%;
+}
+
+.ssn {
+  width: 100%;
+  height: 20%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-weight: 600;
+}
+
+.ssn_text1, .ssn_text2 {
+  display: flex;
+  flex-direction: column;
+  color:#2d1cc7;
+  font-size: 1.4rem;
+}
+
+/*contact */
+
+.contact {
+  background-color: darkseagreen;
+  padding: 2% 8%;
+}
+
+.title_contact {
+  color: rgb(34, 135, 139);
+  font-size: 3.5rem;
+  display: flex;
+  justify-content: center;
+}
+
+.contact_form {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  font-family: Arial, sans-serif; 
+  font-size: 1.6rem;
+  margin: 2% auto;
+  color: darkgreen;
+}
+
+.form {
+  background: #f9f9f9;
+  width: 80%;
+  padding: 2%;
+  border-radius: 8px;
+}
+
+.file1,
+.file2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.email {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-content: space-around;
+  align-items: center;
+}
+
+.name,
+.lastname,
+.dni,
+.phone,
+.email,
+.types,
+.message,
+.button_submit {
+  margin-bottom: 2%;
+}
+
+
+label {
+  display: flex;
+  justify-content: space-evenly;
+  font-weight: bold;
+  margin-bottom: 5%;
+}
+
+input[type="email"] {
+  width: calc(80% - 1.6rem);
+  height: 2rem;
+  padding: 2%;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+input[type="text"],
+input[type="number"],
+textarea {
+  width: calc(100% - 1.6rem);
+  padding: 5%;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  
+}
+
+.types_radio {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: baseline;
+}
+
+.types label {
+  margin-right: 0;
+}
+
+input[type="radio"] {
+  margin-right: 1%;
+  margin-top: 0%;
+}
+
+.button_submit {
+  display: flex;
+  justify-content: center;
+  align-items: center;  
+}
+
+.submit {
+  padding: 1% 2%;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 1.4rem;
+ 
+}
+
+.submit:hover {
+  background-color: #8aa38b;
+}
